@@ -42,7 +42,7 @@ struct ContentView: View {
                     playerCard = "card" + String(playerRand)
                     cpuCard = "card" + String(cpuRand)
                     
-                    // Update the score
+                    // Update score
                     
                     if playerRand > cpuRand {
                         playerScore += 1
